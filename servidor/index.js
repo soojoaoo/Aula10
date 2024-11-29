@@ -50,3 +50,8 @@ app.get('/alunos', (req, res) => {
         res.json(results);
     });
 });
+
+//Iniciando o servidor
+app.listen(PORT, () => {
+    console.log(`Servidor rodando em http://localhost:${PORT}`);
+});
